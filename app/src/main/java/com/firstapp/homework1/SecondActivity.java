@@ -11,18 +11,12 @@ public class SecondActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        private EditText id; //아이디
-        private EditText password; //비밀번호
-        private EditText passwordCheck; //비밀번호확인
-        private Button btnDone; //등록
-        private Button btnCancel; //취소_돌아가기
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second);
         setTitle("Second 액티비티");
 
-        btnCancel = (Button) findViewById(R.id.btnReturn);
-        btnReturn.setOnClickListener(new View.OnClickListener() {
+        Button btnCancel = (Button) findViewById(R.id.btnReturn);
+        btnCancel.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 System.out.printf("Back into FirstActivity");
                 finish();
