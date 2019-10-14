@@ -2,7 +2,7 @@
 mobile programming - first homework
 
 [테스트 환경]
-1. 안드로이드 스튜디오 SDK (Tools -> SDK Manager로 확인)
+1. 안드로이드 스튜디오
    - SDK 플랫폼 : Android 10.0(Q), 9.0(Pie), 8.1(Oreo)
    - Android SDK Build-Tools : 29.0.2, 28.0.3, 28.0.2
    - Android Emulator
